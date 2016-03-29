@@ -445,7 +445,8 @@ class CI_Output {
 		{
 			$memory	= round(memory_get_usage() / 1024 / 1024, 2).'MB';
 			$base_url = base_url();
-			$output = str_replace(array('{elapsed_time}', '{memory_usage}', '{base_url}'), array($elapsed, $memory, $base_url), $output);
+			// $output = str_replace(array('{elapsed_time}', '{memory_usage}', '{base_url}'), array($elapsed, $memory, $base_url), $output);
+			$output = str_replace(array('{base_url}'), array($base_url), $output);
 		}
 
 		// --------------------------------------------------------------------
