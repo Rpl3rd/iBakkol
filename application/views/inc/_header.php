@@ -18,7 +18,7 @@
 <body>
 	<header class="ui menu top fixed large horizontal inverted teal">
 		<div class="ui container">
-			<a href="/" class="header item">{ iBakkol }</a>
+			<a href="{base_url}" class="header item">{ iBakkol }</a>
 			<div class="item right">
 				<div class="ui inverted transparent left icon input full width">
 					<input placeholder="Cari Sesuatu ..." type="text">
@@ -26,17 +26,16 @@
 				</div>
 			</div>
 			<div class="right menu">
-				<a href="/" class="item"><i class="icon home"></i></a>
-				<a href="#" class="ui dropdown item">
-					<i class="icon mail"></i>
-					<i class="ui label floating red circular tiny">25</i>
-					<div class="menu transition hidden">
-						<div class="item">audgjssssssssssssssskhadsgjakkkkkkkkkkkkkkkkkkkk 1</div>
-						<div class="item">hadsgjakkkkkkkkkkkkkkkkkkkk 2</div>
-						<div class="item">hadsgjakkkkkkkkkkkkkkkkkkkk 3</div>
+				<a href="{base_url}home" class="item"><i class="icon home"></i></a>
+				<div class="ui inline dropdown item">
+					<i class="icon mail"></i><i class="ui label floating red circular tiny">25</i>
+					<div class="menu">
+						<div class="item"><img class="ui avatar image" src="../images/avatar/small/jenny.jpg">
+							<label for="">Hello</label>
+						</div>
 					</div>
-				</a>
-				<a href="#" class="item">
+				</div>
+				<a class="item">
 					<i class="icon world"></i>
 					<i class="ui label floating red circular tiny">50+</i>
 				</a>

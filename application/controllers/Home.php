@@ -11,7 +11,6 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('inc/_header');
 		$this->load->view('inc/_content');
-		// $this->load->view('inc/_header');
 	}
 
 }
