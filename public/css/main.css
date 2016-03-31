@@ -1,0 +1,11 @@
+body {background-color: #ecf0f1}
+.ui.menu .item::before {
+	width: 0;
+}
+.ui.menu:not(.secondary):not(.text):not(.tabular):not(.borderless) > .container > .item:first-child:not(.right):not(.borderless) {
+	border-left: 0;
+}
+.ui.floating.label {
+	top: 0.2rem;
+	left: 80%;
+}
