@@ -16,6 +16,8 @@
 		</div>
 		<div class="eleven wide column">
 			<div class="ui tall stacked segment">
+		<?php $bla = array('a','b','c','a','b','c','a','b'); foreach ($bla as $key): ?>
+			<div class="ui stacked segment">
 				<div class="ui items">
 					<div class="item">
 						<div class="image">
@@ -36,111 +38,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="ui tall stacked segment">
-				<div class="ui items">
-					<div class="item">
-						<div class="image">
-							<!-- <img src="/images/wireframe/image.png"> -->
-						</div>
-						<div class="content">
-							<a class="header">Header</a>
-							<div class="meta">
-								<span>Description</span>
-							</div>
-							<div class="description">
-								<p></p>
-							</div>
-							<div class="extra">
-								Additional Details
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="ui tall stacked segment">
-				<div class="ui items">
-					<div class="item">
-						<div class="image">
-							<!-- <img src="/images/wireframe/image.png"> -->
-						</div>
-						<div class="content">
-							<a class="header">Header</a>
-							<div class="meta">
-								<span>Description</span>
-							</div>
-							<div class="description">
-								<p></p>
-							</div>
-							<div class="extra">
-								Additional Details
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="ui tall stacked segment">
-				<div class="ui items">
-					<div class="item">
-						<div class="image">
-							<!-- <img src="/images/wireframe/image.png"> -->
-						</div>
-						<div class="content">
-							<a class="header">Header</a>
-							<div class="meta">
-								<span>Description</span>
-							</div>
-							<div class="description">
-								<p></p>
-							</div>
-							<div class="extra">
-								Additional Details
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="ui tall stacked segment">
-				<div class="ui items">
-					<div class="item">
-						<div class="image">
-							<!-- <img src="/images/wireframe/image.png"> -->
-						</div>
-						<div class="content">
-							<a class="header">Header</a>
-							<div class="meta">
-								<span>Description</span>
-							</div>
-							<div class="description">
-								<p></p>
-							</div>
-							<div class="extra">
-								Additional Details
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="ui tall stacked segment">
-				<div class="ui items">
-					<div class="item">
-						<div class="image">
-							<!-- <img src="/images/wireframe/image.png"> -->
-						</div>
-						<div class="content">
-							<a class="header">Header</a>
-							<div class="meta">
-								<span>Description</span>
-							</div>
-							<div class="description">
-								<p></p>
-							</div>
-							<div class="extra">
-								Additional Details
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+		<?php endforeach ?>
 		</div>
 	</div>
 

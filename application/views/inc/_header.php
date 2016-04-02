@@ -35,19 +35,17 @@
 						</div>
 					</div>
 				</div>
-				<a class="item">
+				<a href="#" class="item">
 					<i class="icon world"></i>
 					<i class="ui label floating red circular tiny">50+</i>
 				</a>
 				<div class="ui dropdown item">{User}
 					<i class="dropdown icon"></i>
 					<div class="menu transition hidden">
-						<div class="item">A</div>
-						<div class="item">B</div>
-						<div class="item">C</div>
+						<div class="item"><i class="edit icon"></i> Perbarui Profile</div>
+						<div class="item"><i class="sign out icon"></i> Keluar</div>
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</header>
