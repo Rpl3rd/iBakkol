@@ -10,7 +10,17 @@ class Home extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('inc/_header');
-		$this->load->view('cont/bkk/dashboard');
+		$this->load->view('cont/bkk/dash-bkk');
+	}
+	public function index2()
+	{
+		$this->load->view('inc/_header');
+		$this->load->view('cont/comp/dash-comp');
+	}
+	public function index3()
+	{
+		$this->load->view('inc/_header');
+		$this->load->view('cont/tmtn/dash-tmtn');
 	}
 	public function tbh_tamatan()
 	{
@@ -46,6 +56,26 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('inc/_header');
 		$this->load->view('cont/bkk/loker');
+	}
+	public function loker2()
+	{
+		$this->load->view('inc/_header');
+		$this->load->view('cont/comp/loker-comp');	
+	}
+	public function pelamar()
+	{
+		$this->load->view('inc/_header');
+		$this->load->view('cont/comp/pelamar');		
+	}
+	public function detail_pelamar()
+	{
+		$this->load->view('inc/_header');
+		$this->load->view('cont/comp/det-pelamar');
+	}
+	public function detail_loker()
+	{
+		$this->load->view('inc/_header');
+		$this->load->view('cont/tmtn/det-loker');
 	}
 }
 
