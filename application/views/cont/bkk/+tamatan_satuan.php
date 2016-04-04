@@ -8,26 +8,37 @@
 				<a class="item" data-tab="kompetensi">Data Kompetensi</a>
 			</div>
 			<div class="ui bottom attached active tab segment" data-tab="tamatan">
-				<div class="ui form">
+				<div class="ui form dt-tamatan">
+					<div class="inline fields">
+						<div class="four wide field">
+							<label>Nama Lengkap</label>
+						</div>	
+						<div class="five wide field">
+							<input placeholder="Nama Depan" type="text" name="fname">
+						</div>
+						<div class="five wide field">
+							<input placeholder="Nama Belakang" type="text" name="lname">
+						</div>
+					</div>
+					<div class="inline fields">
+						<div class="four wide field">
+							<label>NISN</label>
+						</div>	
+						<div class="ten wide field">
+							<input placeholder="NISN" type="text" name="nisn">
+						</div>
+					</div>
 					<div class="inline fields">
 						<div class="four wide field">
 							<label>Kompetensi Keahlian</label>
 						</div>
-						<div class="eight wide field">
+						<div class="ten wide field">
 							<select class="ui dropdown fluid">
 								<option value="">-- Kompetensi Keahlian --</option>
 								<option value="0">Rekayasa Perangkat Lunak</option>
 								<option value="1">Teknik Komputer Jaringan</option>
 								<option value="2">Multimedia</option>
 							</select>
-						</div>
-					</div>
-					<div class="inline fields">
-						<div class="four wide field">
-							<label>NISN</label>
-						</div>
-						<div class="eight wide field">
-							<input placeholder="NISN" type="text">
 						</div>
 					</div>
 				</div>
