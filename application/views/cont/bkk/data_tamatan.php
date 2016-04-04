@@ -1,4 +1,4 @@
-<div class="ui grid fluid computer large monitor desktop tablet only padded divided" style="padding-top:3rem;">
+<div class="ui grid fluid computer large monitor desktop tablet only padded divided">
 	<?php $this->load->view('nav/nav-bkk'); ?>
 	<div class="eleven wide column">
 		<div class="ui tall stacked segment">

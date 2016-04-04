@@ -1,4 +1,4 @@
-	<div class="ui grid fluid computer large monitor desktop tablet only padded divided" style="padding-top:3rem;">
+	<div class="ui grid fluid computer large monitor desktop tablet only padded divided">
 		<div class="three wide column">
 			<div class="ui vertical pointing menu fixed" style="top: 4rem;left: 1rem;">
 				<a class="active item" href="/">Home</a>

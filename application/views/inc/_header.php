@@ -27,18 +27,18 @@
 			</div>
 			<div class="right menu">
 				<a href="{base_url}home" class="item"><i class="icon home"></i></a>
+				<a href="{base_url}messages" class="item">
+					<i class="icon mail"></i>
+					<i class="ui label floating red circular tiny">25</i>
+				</a>
 				<div class="ui inline dropdown item">
-					<i class="icon mail"></i><i class="ui label floating red circular tiny">25</i>
+					<i class="icon world"></i><i class="ui label floating red circular tiny">50+</i>
 					<div class="menu">
-						<div class="item"><img class="ui avatar image" src="../images/avatar/small/jenny.jpg">
+						<div class="item">
 							<label for="">Hello</label>
 						</div>
 					</div>
 				</div>
-				<a href="#" class="item">
-					<i class="icon world"></i>
-					<i class="ui label floating red circular tiny">50+</i>
-				</a>
 				<div class="ui dropdown item">{User}
 					<i class="dropdown icon"></i>
 					<div class="menu transition hidden">

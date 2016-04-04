@@ -9,3 +9,6 @@ body {background-color: #ecf0f1}
 	top: 0.2rem;
 	left: 80%;
 }
+.ui.fluid.dropdown {
+	width: 100% !important;
+}
