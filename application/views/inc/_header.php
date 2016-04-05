@@ -12,8 +12,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="{base_url}public/semantic.min.css">
 	<link rel="stylesheet" href="{base_url}public/css/main.css">
-	<script type="text/javascript" src="{base_url}public/js/jquery.min.js"></script>
+	<link rel="stylesheet" href="{base_url}public/plugin/daterangepicker.min.css">
+	<script type="text/javascript" src="{base_url}public/plugin/jquery.min.js"></script>
 	<script type="text/javascript" src="{base_url}public/semantic.min.js"></script>
+	<script type="text/javascript" src="{base_url}public/plugin/moment.min.js"></script>
+	<script type="text/javascript" src="{base_url}public/plugin/daterangepicker.min.js"></script>
 </head>
 <body>
 	<header class="ui menu top fixed large horizontal inverted teal">
