@@ -618,14 +618,10 @@
 					</div>
 				</div>
 			</div>
-			<div class="floated right">
+			<div class="float right">
 				<a href="#" class="ui primary button"><i class="save icon"></i>Submit</a>
 			</div>
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
-	$('.ui.radio.checkbox').checkbox();
-	$('.ui.checkbox').checkbox();
-</script>
 <script type="text/javascript" src="{base_url}public/js/main.js"></script>
