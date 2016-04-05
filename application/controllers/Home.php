@@ -30,6 +30,18 @@ class Home extends CI_Controller {
 		$this->load->view('inc/_header');
 		$this->load->view('cont/bkk/+tamatan');
 	}
+
+	public function tbh_perusahaan()
+	{
+		$this->load->view('inc/_header');
+		$this->load->view('cont/bkk/+perusahaan');
+	}
+
+	public function tbh_loker()
+	{
+		$this->load->view('inc/_header');
+		$this->load->view('cont/bkk/+loker');
+	}
 	
 	public function tamatan_satuan()
 	{

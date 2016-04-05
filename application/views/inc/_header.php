@@ -26,7 +26,7 @@
 				</div>
 			</div>
 			<div class="right menu">
-				<a href="{base_url}home" class="item"><i class="icon home"></i></a>
+				<a href="{base_url}" class="item"><i class="icon home"></i></a>
 				<a href="{base_url}messages" class="item">
 					<i class="icon mail"></i>
 					<i class="ui label floating red circular tiny">25</i>
