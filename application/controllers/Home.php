@@ -12,11 +12,13 @@ class Home extends CI_Controller {
 		$this->load->view('inc/_header');
 		$this->load->view('cont/bkk/dash-bkk');
 	}
+
 	public function index2()
 	{
 		$this->load->view('inc/_header');
 		$this->load->view('cont/comp/dash-comp');
 	}
+
 	public function index3()
 	{
 		$this->load->view('inc/_header');
