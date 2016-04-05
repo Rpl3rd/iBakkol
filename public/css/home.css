@@ -1,5 +1,7 @@
 .bg-image {
-	background-image: url('../image/562488587.jpg') !important;
+	background-image: url('http://www.pure-jobs.com/images/images/find-a-job-background4.jpg') !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
 }
 .head-main {
 	border: 0 !important;
