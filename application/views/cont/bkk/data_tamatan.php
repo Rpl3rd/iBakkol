@@ -10,7 +10,8 @@
 							<i class="student icon"></i>
 							<i class="corner plus icon"></i>
 						</i>
-						Tambah Tamatan</a>
+						Tambah Tamatan
+					</a>
 					<table class="ui blue celled striped table">
 						<thead>
 							<tr>

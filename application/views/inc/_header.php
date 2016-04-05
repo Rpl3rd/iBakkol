@@ -42,7 +42,7 @@
 				<div class="ui dropdown item">{User}
 					<i class="dropdown icon"></i>
 					<div class="menu transition hidden">
-						<div class="item"><i class="edit icon"></i> Perbarui Profile</div>
+						<a href="{base_url}home/edit_profile" class="item"><i class="edit icon"></i> Perbarui Profile</a>
 						<div class="item"><i class="sign out icon"></i> Keluar</div>
 					</div>
 				</div>

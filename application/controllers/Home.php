@@ -100,6 +100,12 @@ class Home extends CI_Controller {
 		$this->load->view('inc/_header');
 		$this->load->view('cont/tmtn/det-loker');
 	}
+
+	public function edit_profile()
+	{
+		$this->load->view('inc/_header');
+		$this->load->view('cont/bkk/edit-profile');	
+	}
 }
 
 /* End of file Home.php */
