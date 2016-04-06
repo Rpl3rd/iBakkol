@@ -9,9 +9,24 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('landing');
+		$this->load->view('homepage/_header');
+		$this->load->view('homepage/landing');
+		$this->load->view('homepage/_footer');
 	}
 
+	public function login()
+	{
+		$this->load->view('homepage/_header');
+		$this->load->view('homepage/login');
+		$this->load->view('homepage/_footer');
+	}
+
+	public function reg_tamatan()
+	{
+		$this->load->view('homepage/_header');
+		$this->load->view('homepage/reg-tmtn');
+		$this->load->view('homepage/_footer');
+	}
 	public function sentEmail()
 	{
 		$config = array(

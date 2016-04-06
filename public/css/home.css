@@ -1,11 +1,16 @@
 .bg-image {
-	background-image: url('http://www.pure-jobs.com/images/images/find-a-job-background4.jpg') !important;
+	background-image: url('../../public/image/562488587.jpg') !important;
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
 }
 .head-main {
 	border: 0 !important;
 
+}
+.ui.dropdown .menu > .item:hover {
+  background-color: white !important;
+  color: rgba(0, 0, 0, 0.95);
+  z-index: 13;
 }
 .hidden.menu {
 	display: none;
