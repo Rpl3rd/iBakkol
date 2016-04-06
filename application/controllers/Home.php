@@ -25,6 +25,16 @@ class Home extends CI_Controller {
 		$this->load->view('cont/tmtn/dash-tmtn');
 	}
 
+	public function tamatan_step1()
+	{
+		$this->load->view('cont/bkk/step1');
+	}
+
+	public function tamatan_step2()
+	{
+		$this->load->view('cont/bkk/step2');
+	}
+
 	public function tbh_tamatan()
 	{
 		$this->load->view('inc/_header');

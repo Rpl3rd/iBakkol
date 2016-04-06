@@ -7,6 +7,11 @@
 	border: 0 !important;
 
 }
+.ui.dropdown .menu > .item:hover {
+  background-color: white !important;
+  color: rgba(0, 0, 0, 0.95);
+  z-index: 13;
+}
 .hidden.menu {
 	display: none;
 }
@@ -22,7 +27,7 @@
 }
 .masthead h1.ui.header {
 	margin-top: 10rem;
-	margin-bottom: -1rem;
+	margin-bottom: -1.5rem;
 	font-size: 4em;
 	font-weight: normal;
 }
