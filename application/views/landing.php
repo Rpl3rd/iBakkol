@@ -12,36 +12,16 @@
   <script src="{base_url}public/semantic.min.js"></script>
 </head>
 <body>
-  <div class="ui large top fixed hidden menu">
-    <div class="ui container">
-      <a class="active item">Home</a>
-      <a class="item">Work</a>
-      <a class="item">Company</a>
-      <a class="item">Careers</a>
-      <div class="right menu">
-        <div class="item">
-          <a class="ui button">Log in</a>
-        </div>
-        <div class="item">
-          <a class="ui primary button">Sign Up</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Sidebar Menu -->
-  <div class="ui vertical sidebar menu">
+  <div class="ui vertical sidebar menu inverted">
     <a class="active item">Home</a>
     <a class="item">Work</a>
     <a class="item">Company</a>
     <a class="item">Careers</a>
-    <a class="item">Login</a>
-    <a class="item">Signup</a>
   </div>
   <!-- Page Contents -->
   <div class="pusher">
     <div class="ui inverted bg-image vertical masthead center aligned segment">
-
       <div class="ui container">
         <div class="ui large secondary pointing menu inverted head-main">
           <a class="toc item">
@@ -52,18 +32,18 @@
           <a class="item">Company</a>
           <a class="item">Careers</a>
           <div class="right item">
-            <a class="ui inverted button">Log in</a>
-            <a class="ui inverted button">Sign Up</a>
+            <a class="ui inverted button">Masuk</a>
+            <a class="ui inverted button">Daftar</a>
           </div>
         </div>
       </div>
 
       <div class="ui text container">
-        <h1 class="ui inverted header">
-          Imagine-a-Company
-        </h1>
-        <h2>Do whatever you want when you want to.</h2>
-        <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
+        <h1 class="ui inverted red header">Selamat Datang</h1>
+        <h2 class="ui header inverted huge">Bergabunglah bersama kami sebagai ...</h2>
+        <a href="#" class="ui huge instagram button">Siswa<i class="icon arrow right"></i></a>
+        <a href="#" class="ui huge instagram button">BKK SMK<i class="icon arrow right"></i></a>
+        <a href="#" class="ui huge instagram button">Perusahaan<i class="icon arrow right"></i></a>
       </div>
 
     </div>
